@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	cout<<"===============\n";
+	cout<<"Even or Odd? ||\n";
+	cout<<"===============\n";
+	
+	
+	for (int i = 1; i <= 10; i++ ){
+		
+	int number;
+	
+	cout<<"\nEnter a Number: ";
+	cin>>number;
+	
+	if (number % 2 == 0) {
+		cout<<"It's Even number!\n";
+	}
+	else if (number % 2 != 0){
+		cout<<"It's Odd number!\n";
+	}
+	else {
+		cout<<"Enter a Number Please!\n";
+	}
+	
+}
+
+	
+return 0;
+}
