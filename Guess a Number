@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int secretnumber;
+	
+	
+	cout<<"================="<<endl;
+	cout<<"SECRET FORMULA ||"<<endl;
+	cout<<"================="<<endl;
+	
+	
+	
+	cout<<"\nguess a number from 1 - 10: ";
+	cin>>secretnumber;
+	
+	if(secretnumber == 7){
+	   cout<<"It's your lucky day Fella!'";
+	} 
+	else if (secretnumber != 7) {
+		cout<<"Try Again Next time Bitch";
+	}
+	else {
+		cout<<"May Instruction na nga";
+	}
+	
+return 0;
+}
